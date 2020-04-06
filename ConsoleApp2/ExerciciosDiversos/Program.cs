@@ -12,6 +12,7 @@ namespace ExerciciosDiversos
             double desconto = (preco < 20) ? preco * 0.10 : preco * 0.05;
             Console.WriteLine(desconto);
             Console.WriteLine("Porcentagem desconto: "+desconto);
+            Console.WriteLine("teste commit");
             Console.ReadLine();
         }
     }
